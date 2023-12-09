@@ -1,0 +1,32 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.first {
+    background-image: radial-gradient(circle, #76b6594a, #e91e624a);
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1.5rem;
+}
+.first, .second, .third {
+    margin-bottom: 20px;
+    border:2px solid grey;
+    padding: 10px;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color:#345563d6;
+    color:white;
+}
+.container {
+    padding: 40px;
+    min-height:100vh;
+}
+h2 {
+    font-size: 1.8rem;
+}
